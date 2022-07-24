@@ -5,7 +5,7 @@
 # Site
 title: 潘崔克的小地方
 subtitle: ''
-description: '乏了，小鸭倒水'
+description: '我还有一些头发可以挥霍^_^'
 keywords: 'blog'
 author: Patrick Pan
 language: zh-CN
@@ -98,6 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: butterfly
+# theme: stellar
+# theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
