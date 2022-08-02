@@ -15,7 +15,7 @@ menu:
     吃豆人: /pacman/ || fas fa-gamepad
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
-    追番: /bangumis/ || fa-fw fab fa-youtube
+    追番: /bangumis/ || fa-brands fa-bilibili
     电影: /movies/ || fas fa-video
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
@@ -49,6 +49,7 @@ social:
    fab fa-github: https://github.com/HelloWorldKing1 || Github
    fas fa-envelope: mailto:pra2010@163.com || Email
    fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=694861039&site=qq&menu=yes || QQ
+   fa-brands fa-bilibili: https://space.bilibili.com/49919496 || bilibili
 
 # search (搜索)
 # --------------------------------------
@@ -136,12 +137,10 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - http://rebp38war.bkt.clouddn.com/img/v2-0ae647a31329c6851d322f313b75ffaf_r.jpg
-    - http://rebp38war.bkt.clouddn.com/img/v2-358cb55f001519e6e76bb920008839da_r.jpg
-    - http://rebp38war.bkt.clouddn.com/img/v2-e3059da37ed8f8f281476c133380e406_r.jpg
-    - http://rebp38war.bkt.clouddn.com/img/v2-376062e6eaa322512fae11c68de08493_r.jpg
-    - http://rebp38war.bkt.clouddn.com/img/v2-9769ffc088ad20ee4ddd74b62cc142c7_r.jpg
-    - http://rebp38war.bkt.clouddn.com/img/v2-b006882f4ae03db43db5dd9a4bda19e5_r.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon1.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon2.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon3.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon4.jpg
     
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
