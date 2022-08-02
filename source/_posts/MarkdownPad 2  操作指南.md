@@ -2,12 +2,13 @@
 title: MarkdownPad 2  操作指南
 comments: true
 categories:
- - 工具
+  - 工具
 tags:
- - markdown
- - blog
+  - markdown
+  - blog
 top_img: false
-cover: http://rebp38war.bkt.clouddn.com/img/markdownpad2-weblogo.png
+cover: 'http://rebp38war.bkt.clouddn.com/img/markdownpad2-weblogo.png'
+abbrlink: 2151077289
 ---
 ![](http://rebp38war.bkt.clouddn.com/img/markdownpad2-weblogo.png)<br>
 > &emsp;&emsp;使用 [Hexo](https://hexo.io/)来写博客 ， 需要使用Markdown工具来快速编写.md文件，我使用的是MarkdownPad 2。<br>MarkdownPad 2是一款较不错的Markdown编辑器，可快速将文本转换为美观的HTML/XHTML的网页格式代码，且操作方便，用户可以通过键盘快捷键和工具栏按钮来使用或者移除Markdown格式，左右栏的分割方式令用户可以实时看到 HTML 格式的 Markdown 文档。

@@ -14,7 +14,7 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://120.48.107.220/
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -28,7 +28,8 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: 
+  - "pacman/**"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -119,3 +120,25 @@ bangumi:
   quote: 'Where there is life, there is life.'
   show: 1
   loading: '/img/bangumi-loading.gif'
+ 
+algolia:
+  applicationID: 'IT9IPJ1H0U'
+  apiKey: '93642b090545b529fef62689cc0f8704'
+  adminApiKey: "2103caeddf38659c950f0a1217fca4ec"
+  indexName: 'searchA'
+  appId: "IT9IPJ1H0U"
+  chunkSize: 5000
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
+    
+#abbrlink配置
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: dec    # 进制：dec(default) and hex

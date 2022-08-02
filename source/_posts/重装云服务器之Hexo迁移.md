@@ -1,11 +1,12 @@
 ---
 title: 重装云服务器之Hexo迁移
-date: 2022-07-22 16:04:22
-tags: 
- - 云
- - Hexo
+tags:
+  - 云
+  - Hexo
 categories: Hexo
-cover: 
+abbrlink: 2291394815
+date: 2022-07-22 16:04:22
+cover:
 ---
 
 

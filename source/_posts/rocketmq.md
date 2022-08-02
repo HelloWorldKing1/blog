@@ -1,11 +1,12 @@
 ---
 title: RocketMQ
-date: 2022-07-08 14:51:12
-tags: 
- - mq
- - 消息中间件
+tags:
+  - mq
+  - 消息中间件
 categories: 消息中间件
-cover: http://rebp38war.bkt.clouddn.com/img/7c0175abf66c66d22b32061633d5cf7d.jpeg
+cover: 'http://rebp38war.bkt.clouddn.com/img/7c0175abf66c66d22b32061633d5cf7d.jpeg'
+abbrlink: 1776729057
+date: 2022-07-08 14:51:12
 ---
 
 # 第1章 RocketMQ概述

@@ -1,10 +1,23 @@
 - class_name: 友情鏈接
-  class_desc: 那些人，那些事
+  class_desc: 大佬直通车
   link_list:
     - name: Hexo
       link: https://hexo.io/zh-tw/
       avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
       descr: 快速、簡單且強大的網誌框架
+    - name: ZLSN's blog
+      link: http://182.61.26.181/
+      avatar: http://182.61.26.181/img/avatar/avatar.jpg
+      descr: 坐我旁边敲代码的龙哥
+    - name: 张洪 Heo
+      link: https://blog.zhheo.com/
+      avatar: https://f.zhheo.com/Guli/img/avatar2.png
+      descr: 分享设计与科技生活
+    - name: Amnesia's Blog
+      link: https://amnesia-f.vercel.app/
+      avatar: https://gcore.jsdelivr.net/gh/Amnesia-f/jsDelivr_CDN/avatar.jpg
+      descr: 零碎的岛屿总会找到海.
+      siteshot: https://gcore.jsdelivr.net/gh/Amnesia-f/FriendLinkScreenShot@gh-pages/amnesia-f.vercel.app.jpg
 
 - class_name: 網站
   class_desc: 值得推薦的網站

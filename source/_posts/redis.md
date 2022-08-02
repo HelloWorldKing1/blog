@@ -1,10 +1,11 @@
 ---
 title: Redis指南
-date: 2022-07-19 12:21:18
-tags: 
- - Redis
- - NoSQL
+tags:
+  - Redis
+  - NoSQL
 categories: NoSQL
+abbrlink: 3839517335
+date: 2022-07-19 12:21:18
 ---
 
 # NoSQL概述

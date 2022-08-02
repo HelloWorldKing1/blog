@@ -1,11 +1,12 @@
 ---
 title: Kafka
-date: 2022-07-10 15:41:22
-tags: 
- - mq
- - 消息中间件
+tags:
+  - mq
+  - 消息中间件
 categories: 消息中间件
-cover: http://rebp38war.bkt.clouddn.com/img/6f79ddbaf6bc4c2d99adc571273d577f.jpeg
+cover: 'http://rebp38war.bkt.clouddn.com/img/6f79ddbaf6bc4c2d99adc571273d577f.jpeg'
+abbrlink: 2591906323
+date: 2022-07-10 15:41:22
 ---
 # 消息队列的流派
 

@@ -1,11 +1,12 @@
 ---
 title: RabbitMQ
-date: 2022-07-09 17:16:37
-tags: 
- - mq
- - 消息中间件
+tags:
+  - mq
+  - 消息中间件
 categories: 消息中间件
-cover: http://rebp38war.bkt.clouddn.com/img/0c6040bca724a889d51ddc29ca994f31.jpeg
+cover: 'http://rebp38war.bkt.clouddn.com/img/0c6040bca724a889d51ddc29ca994f31.jpeg'
+abbrlink: 3041119952
+date: 2022-07-09 17:16:37
 ---
 
 # 消息队列

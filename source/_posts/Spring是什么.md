@@ -1,10 +1,11 @@
 ---
 title: 面试问题整理
-date: 2022-06-08 15:21:52
-tags: 
- - spring
- - 面试
+tags:
+  - spring
+  - 面试
 categories: 面试
+abbrlink: 3587127839
+date: 2022-06-08 15:21:52
 ---
 
 ### Spring是什么
@@ -88,3 +89,7 @@ spring中非常核心的一个顶层接口
 它的主要职责就是生产Bean
 
 它实现了简单工厂的设计模式，通过getBean传入标识生产一个Bean
+
+### ArrayList和LinkedList的区别
+
+都实现了List接口，
