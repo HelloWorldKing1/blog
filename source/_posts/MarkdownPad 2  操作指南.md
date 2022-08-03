@@ -6,8 +6,6 @@ categories:
 tags:
   - markdown
   - blog
-top_img: false
-cover: 'http://rebp38war.bkt.clouddn.com/img/markdownpad2-weblogo.png'
 abbrlink: 2151077289
 ---
 ![](http://rebp38war.bkt.clouddn.com/img/markdownpad2-weblogo.png)<br>
@@ -37,6 +35,7 @@ abbrlink: 2151077289
     GBPduHjWfJU1mZqcPM3BikjYKF6xKhlKIys3i1MU2eJHqWGImDHzWdD6xhMNLGVpbP2M5SN6bnxn2kSE8qHqNY5QaaRxmO3YSMHxlv2EYpjdwLcPwfeTG7kUdnhKE0vVy4RidP6Y2wZ0q74f47fzsZo45JE2hfQBFi2O9Jldjp1mW8HUpTtLA2a5/sQytXJUQl/QKO0jUQY4pa5CCx20sV1ClOTZtAGngSOJtIOFXK599sBr5aIEFyH0K7H4BoNMiiDMnxt1rD8Vb/ikJdhGMMQr0R4B+L3nWU97eaVPTRKfWGDE8/eAgKzpGwrQQoDh+nzX1xoVQ8NAuH+s4UcSeQ==
 
  
+
 ![](http://rebp38war.bkt.clouddn.com/img/1.png)
 ### 第三步(重启) ###
 重启MarkdownPad 2就可以用了!

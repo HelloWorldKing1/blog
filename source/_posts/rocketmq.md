@@ -4,7 +4,7 @@ tags:
   - mq
   - 消息中间件
 categories: 消息中间件
-cover: 'http://rebp38war.bkt.clouddn.com/img/7c0175abf66c66d22b32061633d5cf7d.jpeg'
+cover: 'https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/v2-0ff441b7df0f1749ed401aef9fff4067_1440w.jpg'
 abbrlink: 1776729057
 date: 2022-07-08 14:51:12
 ---

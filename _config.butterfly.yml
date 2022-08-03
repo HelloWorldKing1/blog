@@ -141,11 +141,19 @@ cover:
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon2.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon3.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon4.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-6k11mw.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-qdlygl.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-493kxx.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-76jdwv.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-43x7o3.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-0qjdz7.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-4v2krm.jpg
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-4lkpqp.png
     
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: http://rebp38war.bkt.clouddn.com/img/friend_404.gif
-  post_page: http://rebp38war.bkt.clouddn.com/img/404.jpg
+  post_page: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
 # A simple 404 page
 error_404:
