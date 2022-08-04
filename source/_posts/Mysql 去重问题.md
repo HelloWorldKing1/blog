@@ -143,3 +143,82 @@ ORDER BY
   createTime DESC;
 ```
 
+
+
+---
+
+经测试反馈；sql查询速度较慢;
+
+将SQL改造如下：
+
+```sql
+select
+      max(create_time) as create_time,
+      high_seas_code,
+      address,
+      region_code
+    from
+      high_seas_detail
+    group by
+      high_seas_code
+```
+
+问题出现：
+
+<font  color="RED">**由于mysql的表中一行只能对应一行数据，所以才会造成和max函数混合使用的错误。当使用max函数之后，一个group中的多行数据，只会显示第一行数据**</font>
+
+我们可以了解到在使用**max（create_time）和group by(high_seas_code)函数时**只有**high_seas_code,create_time**正确，**其他的列均不正确**
+
+所以可以将这两列作为子查询结果:
+
+```sql
+SELECT
+	ss.high_seas_code,
+	ss.address,
+	ss.region_code,
+	ss.create_time
+FROM
+	(
+		SELECT
+			max(create_time) AS create_time,
+			high_seas_code
+		FROM
+			high_seas_detail
+		GROUP BY
+			high_seas_code
+	) AS temp
+JOIN high_seas_detail ss
+WHERE
+	ss.create_time = temp.create_time
+AND ss.high_seas_code = temp.high_seas_code
+```
+
+结果： 可以正确的返回每组中最新时间的结果！
+
+经测试速度也快了1.5秒左右。
+
+最终sql：
+
+```sql
+SELECT
+            hsc.customer_simple_name AS customerSimpleName,
+            hsc.telehone,
+            so.high_seas_code AS highSeasCode,
+            so.user_name AS userName,
+            so.create_time AS createTime,
+            hsd.address,
+            hsd.region_code AS regionCode
+        FROM
+            sales_order so
+                LEFT JOIN reform_customer_price rcp ON (so.high_seas_code = rcp.high_seas_code AND rcp.high_seas_code IS NULL)
+                LEFT JOIN high_seas_customer hsc ON hsc.high_seas_code = so.high_seas_code
+                LEFT JOIN (
+                SELECT ss.high_seas_code, ss.address, ss.region_code, ss.create_time FROM ( SELECT max(create_time) AS 		create_time, high_seas_code FROM high_seas_detail GROUP BY high_seas_code ) AS temp JOIN high_seas_detail ss WHERE ss.create_time = temp.create_time AND ss.high_seas_code = temp.high_seas_code
+                ) hsd ON hsd.high_seas_code = so.high_seas_code
+        WHERE
+            so.shop_code = 'GC'
+          AND so.state = 1
+        ORDER BY
+			createTime DESC
+```
+
