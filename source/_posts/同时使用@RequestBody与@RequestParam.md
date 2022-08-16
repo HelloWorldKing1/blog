@@ -44,15 +44,13 @@ cover:
 
 
 
-<img src="同时使用@RequestBody与@RequestParam\image-20220726132937689.png" alt="image-20220726132937689" style="zoom:80%;" />
+![image-20220726132937689](同时使用@RequestBody与@RequestParam/image-20220726132937689.png)
 
 一般我们postman传json都是放在raw中，那第二个参数怎么放呢
 
 可以放到Params中。可以看到url中拼接了highSeasCode这个参数
 
-<img src="同时使用@RequestBody与@RequestParam\image-20220726133237104.png" alt="image-20220726133237104" style="zoom:80%;" />
-
-从结果可以看出，请求体里的参数是被后端成功接收了。由此，成功散花！
+![image-20220726133237104](同时使用@RequestBody与@RequestParam/image-20220726133237104.png)从结果可以看出，请求体里的参数是被后端成功接收了。由此，成功散花！
 
 
 

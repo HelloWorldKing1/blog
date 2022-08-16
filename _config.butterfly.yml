@@ -137,13 +137,13 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
+    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/20220815205147.png
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon1.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon2.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon3.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/pokemon4.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-6k11mw.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-qdlygl.jpg
-    - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-493kxx.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-76jdwv.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-43x7o3.jpg
     - https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/wallhaven-0qjdz7.jpg

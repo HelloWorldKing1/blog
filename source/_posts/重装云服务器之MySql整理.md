@@ -13,15 +13,13 @@ cover:
 
 
 
-<img src="http://rebp38war.bkt.clouddn.com/img/20220722142934.png" style="zoom:80%;" />
-
-
+![image-20220816143145916](重装云服务器之MySql整理/image-20220816143145916.png)
 
 选择系统镜像，点击重置即可安装完毕，点击应用管理，可以看到应用安装完的应用信息；
 
 上面也写了密码放置的位置
 
-<img src="http://rebp38war.bkt.clouddn.com/img/20220722142216.png" style="zoom:80%;" />
+![image-20220816143209941](重装云服务器之MySql整理/image-20220816143209941.png)
 
 我们连接到服务器 
 
@@ -33,7 +31,7 @@ cover:
 
 
 
-![](http://rebp38war.bkt.clouddn.com/img/20220722143415.png)
+![image-20220816143228910](重装云服务器之MySql整理/image-20220816143228910.png)
 
 复制密码进入我们的MySQL ；
 
@@ -44,7 +42,7 @@ Enter password:
 
 在Enter password:后粘贴这段密码
 
-![](http://rebp38war.bkt.clouddn.com/img/20220722143711.png)
+![image-20220816143238735](重装云服务器之MySql整理/image-20220816143238735.png)
 
 看到欢迎信息就进入成功了；
 
@@ -112,9 +110,9 @@ firewall-cmd --reload
 
 或者在百度云上配置
 
-<img src="http://rebp38war.bkt.clouddn.com/img/20220722144447.png" style="zoom:80%;" />
+![image-20220816143312119](重装云服务器之MySql整理/image-20220816143312119.png)
 
-<img src="http://rebp38war.bkt.clouddn.com/img/20220722144513.png" style="zoom:67%;" />
+![image-20220816143328243](重装云服务器之MySql整理/image-20220816143328243.png)
 
 ~~~shell
 [root@ls_patrick ~]# service mysqld restart
@@ -124,7 +122,7 @@ Starting MySQL..                                           [  OK  ]
 
 
 
-<img src="http://rebp38war.bkt.clouddn.com/img/20220722144304.png" style="zoom:67%;" />
+![image-20220816143342606](重装云服务器之MySql整理/image-20220816143342606.png)
 
 重置MySQL密码
 

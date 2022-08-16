@@ -22,7 +22,7 @@ cover:
 [root@ls_patrick ~]# yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-devel
 ```
 
-![](http://rebp38war.bkt.clouddn.com/img/20220722145908.png)
+![image-20220816145308769](重装云服务器之Hexo迁移/image-20220816145308769.png)
 
 刷刷刷.........一会就全部安装完成了，我们在安装git 安装的命令如下
 
@@ -164,11 +164,11 @@ ssh -v HelloWorldKing1@180.76.183.66 //服务器ip
 
 
 
-<img src="http://rebp38war.bkt.clouddn.com/img/20220722155039.png" style="zoom:67%;" />
+![image-20220816145341365](重装云服务器之Hexo迁移/image-20220816145341365.png)
 
 是因为本地记录了上次连接信息；需要这这段删掉即可
 
-![](http://rebp38war.bkt.clouddn.com/img/20220722155006.png)
+![image-20220816145407802](重装云服务器之Hexo迁移/image-20220816145407802.png)
 
 
 
@@ -191,4 +191,4 @@ hexo g -d
 
 如果一切正常，就可以直接传到服务器上，然后输入网址`http://120.48.107.220/`就可以完成博客的浏览了，我这里没有使用域名，如果你有域名，只要把域名解析到这个网址就可以了。
 
-![](http://rebp38war.bkt.clouddn.com/img/20220722155619.png)
+![image-20220816145437390](重装云服务器之Hexo迁移/image-20220816145437390.png)
