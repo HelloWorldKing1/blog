@@ -117,7 +117,7 @@ Server: Docker Engine - Community
 [root@ls_patrick ~]# docker run hello-world
 ```
 
-![image-20220824161427084](C:\Users\USE66\AppData\Roaming\Typora\typora-user-images\image-20220824161427084.png)
+![image-20220824161427084](docker学习/image-20220824161427084.png)
 
 没有helloworld 就会去docker仓库下载
 
