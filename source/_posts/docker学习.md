@@ -1,3 +1,11 @@
+---
+title: docker学习
+tags:
+  - docker
+categories: docker
+abbrlink: 2
+date: 2022-08-24 11:25:12
+---
 ## 查看系统内核和版本
 
 ```shell

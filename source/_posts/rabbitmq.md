@@ -4,9 +4,8 @@ tags:
   - mq
   - 消息中间件
 categories: 消息中间件
-cover: 'https://cdn.jsdelivr.net/gh/HelloWorldKing1/imageRepository@main/img/20191018012402811963.png'
+cover: '/img/20191018012402811963.png'
 abbrlink: 3041119952
-date: 2022-07-09 17:16:37
 ---
 
 # 消息队列
