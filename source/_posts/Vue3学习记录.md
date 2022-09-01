@@ -160,7 +160,7 @@ extends: [
 
 我们可以使用Husky工具：husky是一个git hook工具，可以帮助我们触发git提交的各个阶段：pre-commit、commit-msg、pre-push
 
-安装Husky
+### 1、安装Husky
 
 自动配置Husky命令
 
@@ -170,7 +170,7 @@ npx husky-init && npm install
 
 ![image-202208251118539156](Vue3学习记录/image-20220825111853956.png)
 
-在`pre-commit`中配置git命令前执行lint命令
+### 2、在`pre-commit`中配置git命令前执行lint命令
 
 ![image-202208251121488611](Vue3学习记录/image-20220825112148861.png)
 
@@ -184,21 +184,21 @@ npx husky-init && npm install
 
 Commitizen是帮助我们编写规范commit message的工具
 
-## 1、安装Commitizen
+### 1、安装Commitizen
 
 ```shell
 npm install commitizen -D
 ```
 
-## 2、安装cz
+### 2、安装cz
 
 ```shell
-commitizen init cz-conventional-changelog --save-dev --save-exact
+npx commitizen init cz-conventional-changelog --save-dev --save-exact
 ```
 
-这个命令帮助我们安装cz-conventional-changelog
+这个命令帮助我们安装`cz-conventional-changelog`
 
-安装成功后 会在 package中生生成
+安装成功后 会在 `package.json`中生生成
 
 ```yaml
 "config": {
@@ -208,7 +208,7 @@ commitizen init cz-conventional-changelog --save-dev --save-exact
   }
 ```
 
-## 在package中添加
+### 在package中添加
 
 ```yaml
  "scripts": {
@@ -216,11 +216,55 @@ commitizen init cz-conventional-changelog --save-dev --save-exact
   }
 ```
 
-## 开始提交
+### 开始提交
 
 ```shell
 npm add .
-npm run commmit
+npm run commmit //或者 npx cz
 ```
 
 ![preview1](Vue3学习记录/v2-77d907f4dda3468a9b311e11f43eecda_r.jpg)
+
+## commitlint 代码提交验证
+
+如果我们按照cz来规范提交风格，但是依然有同事通过git commit 按照不规范的格式提交代码应该怎么办？
+
+### 1、安装commitlint
+
+```shell
+npm i @commitlint/config-conventional @commitlint/cli -D 
+```
+
+### 2、在根目录创建commit.config.js文件，配置commitlint
+
+```shell
+module.exports = {
+  extends: ['@commitlint/config-conventional']
+}
+```
+
+### 3、使用husky生成commit-msg文件，验证提交信息
+
+```shell
+npx husky add .husky/commit-msg "npx --no-install commitlint --edit $1"
+```
+
+如出现以下错误：
+
+![image-20220829143226680](Vue3学习记录/image-20220829143226680.png)
+
+解决问题方法：
+
+> win上的终端有时候不能正确的识别，可以分成两个步骤来操作：
+
+1、在文件夹运行命令创建msg文件
+
+```shell
+npx husky add .husky/commit-msg
+```
+2、手动在commit-msg中添加
+
+```
+npx --no-install commitlint --edit $1
+```
+
